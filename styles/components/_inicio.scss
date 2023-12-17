@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&display=swap');
+
+body {
+    background-image: url(../assets/inicio/fundo.png);
+    font-family: 'Rubik Broken Fax', sans-serif;
+    min-height: 100vh;
+    .inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #801A9A;
+        gap: 1rem;
+        height: 95vh;
+        &__img {
+            width: 250px;
+        }
+        &__input {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            align-items: center;
+            input {
+                width: 300px;
+                padding: 1rem;
+                border: none;
+                border-radius: 10px;
+                background: rgba(217, 217, 217, 0.15);
+                color: #ffffff;
+                font-size: 18px;
+                text-align: center;
+                font-weight: 600;
+                transition: .2s ease;
+                &:focus {
+                    background: rgb(0, 0, 0);
+                }
+            }
+            button {
+                width: 130px;
+                padding: 12px;
+                border-radius: 10px;
+                border: none;
+                background: rgb(0, 0, 0);
+                color: #e061e0;
+                border: 1px solid #801A9A;
+                font-size: 28px;
+                text-align: center;
+                font-family: 'Rubik Broken Fax', sans-serif;
+                &:disabled {
+                    color: rgba(255, 255, 255, 0.329);
+                    background: rgba(0, 0, 0, 0.308);
+                    border: 1px solid #ffffff;
+                }
+            }
+            
+        }
+    }
+}
