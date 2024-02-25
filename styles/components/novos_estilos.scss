@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&display=swap');
 
 body {
-    background-image: url(../assets/fundo.png);
+    background-image: url(../fundo.png);
     font-family: 'Rubik Broken Fax', sans-serif;
 }
 
@@ -50,7 +50,7 @@ header {
             border-radius: 5px;
         }
         .back {
-            background-image: url(/assets/anfitriao.jpg);
+            background-image: url(../anfitriao.jpg);
             backface-visibility: hidden;
         }
     }
