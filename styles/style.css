@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(../assets/fundo.png);
+  background-image: url(../fundo.png);
   font-family: "Rubik Broken Fax", sans-serif;
   min-height: 100vh;
 }
